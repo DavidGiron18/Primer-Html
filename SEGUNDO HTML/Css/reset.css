@@ -1,0 +1,38 @@
+/* Reset CSS */
+
+/* Remove default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Set body font styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /*Establecer uina fuente generica en el cuerpo*/
+}
+
+/* Remove list styles */
+ul, ol {
+    list-style: none; /*Eliminar estilos de viñetas/numeros en listas*/
+} 
+
+/* Set default styles for headings */
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Make sure links are styled properly */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*Establecer estilos basicos para las imagenes*/
+img{
+    max-width: 100%;
+    height: auto;
+}
+/*Puedes agregar más estilis a tu predispocición*/

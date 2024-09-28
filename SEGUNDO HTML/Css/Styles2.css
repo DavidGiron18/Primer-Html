@@ -1,0 +1,53 @@
+body{
+    background-color: chocolate;
+}
+
+.title{
+    font-size: 2em;
+    color: rgb(253, 253, 253);
+
+}
+.texto{
+    font-size: 20px;
+    font-style: unset;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Logo{
+    width: 25vw;
+    margin: auto;
+}
+.cards{
+    border: 2px solid aliceblue;
+    width: fit-content;
+    padding: 1px 0em 0em 0em;
+    border-radius: 5%;
+    transition: 1.5s;
+}
+.cards:hover{
+    background-color: rgb(253, 253, 253);
+}
+#cards-container{
+    
+    width: 85vw;
+    margin: auto;
+    margin-top: 1.5em;
+    border: 5px;
+    border-radius: 15px;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#Principal{
+
+    font-size: 4em;
+    font-family: cursive;
+    color: rgb(253, 253, 253);
+}
+#titulos2{
+    border: 2px solid rgb(255, 251, 251);
+    border-radius: 40%;
+    width: 50vw;
+    margin: auto;
+    padding: 2em;
+}
