@@ -5,23 +5,37 @@ body{
 .title{
     font-size: 2em;
     color: rgb(253, 253, 253);
-
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titleofcards{
+    font-size: 2.5em;
+    Color: rgb(253, 253, 253);
+    justify-content: space-around;
 }
 .texto{
     font-size: 20px;
-    font-style: unset;
+    font-size: 10%;
     font-family: Arial, Helvetica, sans-serif;
+ 
 }
 .Logo{
-    width: 25vw;
+    width: 300px;
     margin: auto;
-}
+    height: 200px;
+}    
 .cards{
     border: 2px solid aliceblue;
     width: fit-content;
     padding: 1px 0em 0em 0em;
-    border-radius: 5%;
+    border-radius: 3%;
     transition: 1.5s;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
 }
 .cards:hover{
     background-color: rgb(253, 253, 253);
@@ -31,12 +45,11 @@ body{
     width: 85vw;
     margin: auto;
     margin-top: 1.5em;
-    border: 5px;
     border-radius: 15px;
     padding: 2em;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 #Principal{
 
@@ -45,9 +58,12 @@ body{
     color: rgb(253, 253, 253);
 }
 #titulos2{
-    border: 2px solid rgb(255, 251, 251);
-    border-radius: 40%;
     width: 50vw;
     margin: auto;
     padding: 2em;
+}
+#textobase{
+    font-size: 1.5em;
+    font-family: sans-serif;
+    margin: 2em;
 }
